@@ -27,6 +27,7 @@ application = tornado.web.Application([
 
 if __name__ == "__main__":
     application.listen(8888)
+    print("Server is listening in port 8888")
     tornado.ioloop.IOLoop.current().start()
 
 
